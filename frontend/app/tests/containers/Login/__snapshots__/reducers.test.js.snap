@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sign up user reducer should handle LOGOUT 1`] = `
+Object {
+  "userId": "",
+  "username": "",
+}
+`;
+
+exports[`Sign up user reducer should handle SIGNUP_SUCCESS 1`] = `
+Object {
+  "userId": undefined,
+  "username": "abc",
+}
+`;

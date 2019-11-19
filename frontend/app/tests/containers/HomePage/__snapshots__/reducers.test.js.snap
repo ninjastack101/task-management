@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fetch home reducer should handle FETCH_PRODUCTS_LIST_REQUEST 1`] = `
+Object {
+  "tasks": Object {
+    "0": "somestring",
+  },
+}
+`;
