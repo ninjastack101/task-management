@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fetch home reducer should handle CHANGE_LOCALE 1`] = `
+Object {
+  "locale": Object {
+    "0": "somestring",
+  },
+}
+`;
