@@ -83,7 +83,6 @@ export default function TransitionsModal({ open, toggle, onSubmit, task }) {
                       className={classes.textField}
                       label="Enter Name"
                       name="title"
-                      fullWidth
                       required
                       defaultValue={task.title}
                     />
@@ -115,7 +114,6 @@ export default function TransitionsModal({ open, toggle, onSubmit, task }) {
                         label="Due Date"
                         autoOk
                         value={selectedDate}
-                        variant="outlined"
                         onChange={handleDateChange}
                         KeyboardButtonProps={{
                           "aria-label": "change date"
